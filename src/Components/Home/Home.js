@@ -14,7 +14,8 @@ export default class Home extends Component {
 
         <Link to="/games" style={{ textDecoration: "none" }}>
           <h3 className="left-align">
-            New on Liv testing my git is done <i class="fas fa-chevron-right"></i>{" "}
+            New on Liv testing my git is in branch{" "}
+            <i class="fas fa-chevron-right"></i>{" "}
           </h3>
         </Link>
         <HoriSlider />
