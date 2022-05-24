@@ -1,0 +1,41 @@
+.margin-for-div-top {
+  padding-top: 20px;
+}
+
+.MobileInputSearch {
+  width: 83.455vw;
+  border: none;
+  padding: 0 10px 0 30px;
+  text-transform:lowercase;
+  outline: none;
+  font-size: 32px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: .2px;
+  color: #fff;
+  font-family: SFProText-Regular;
+  background-color: inherit;
+  border-radius: 40px;
+}
+.search-bar-wrapper {
+  width: 83.455vw;
+  background-color: transparent;
+  display: flex;
+  border-radius: 6px;
+  height: 83px;
+  padding: 0 8px;
+  background-image: linear-gradient(94deg,#485563,#29323c 99%);
+  border-radius: 100px;
+  border: 1px solid hsla(0,0%,100%,.1);
+  align-items: center;
+  margin: 5% 5px 0 4%;
+}
+
+.close-icon{
+  margin-top: 70px;
+}
+.body{
+  background-color: #111111;
+}

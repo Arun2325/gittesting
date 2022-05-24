@@ -1,0 +1,58 @@
+.card:hover :not(.card-title) {
+  box-shadow: 0 15px 25px rgb(59, 59, 59);
+  cursor: pointer;
+}
+
+
+.card-img {
+  height: auto;
+}
+
+.cardLayout {
+  margin-bottom: 20px;
+}
+
+.card {
+  align-items: center;
+  border-style: none;
+  border-radius: 40px;
+}
+
+.card-body {
+  
+  background-color: #000;
+  color: #fff;
+  height: auto !important;
+}
+
+.toolTip {
+  visibility: hidden;
+  width: auto;
+  height: auto;
+  font-size: 10px;
+  background-color: #393939;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: 0;
+  margin: 2px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.card:hover .toolTip {
+  visibility: visible;
+  opacity: 1;
+ 
+}
+.card:hover:not(.tooltip){
+  transition: transform 450ms;
+  transform: scale(1.1);
+}
+
+.error {
+  color: #fff;
+}
